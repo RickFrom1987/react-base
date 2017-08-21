@@ -1,0 +1,6 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "jsx-no-bind": 0
+  } 
+}

@@ -1,0 +1,14 @@
+export const BLUE = 'rgba(0,122,255,1)';
+export const BLUE_1 = 'rgba(0,122,255,0.75)';
+export const PINK = 'rgba(255,45,85,1)';
+export const PURPLE = 'rgba(88,86,214,1)';
+export const TEXT_DARK = '#6b7c93';
+export const TEXT_LIGHT = '#4e636a';
+export const GREY = '#F9F9F9';
+export const GREY_1 = '#f6f9fc';
+export const GREY_2 = '#AEAFB0';
+export const GREY_3 = '#99999A';
+export const WHITE = '#F9F9F7';
+export const WHITE_TRANSPARENT = 'rgba(255,255,255, 0.5)';
+export const RED = '#FEEDED';
+export const GREEN = '#0f9d58';

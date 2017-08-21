@@ -1,0 +1,23 @@
+{
+  "rules": {
+    ".read": true,
+    "json": {
+      ".read": true,
+      ".write": "(auth.uid === 'service-worker')",
+    },
+    "users": {
+      "$uid": {
+        ".read": "$uid === auth.uid",
+        ".write": "$uid === auth.uid"
+      }
+    },
+    "projects": {
+      ".indexOn": "uid",
+      ".read": true,
+       "$pid": {
+         ".read": true,
+          ".write": "(!data.exists()) || (auth != null) && (data.child('uid').val() === auth.uid)"
+       }
+    }
+  }
+}
